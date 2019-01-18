@@ -31,14 +31,15 @@ function animateFace()
 
 
 (function loop() {
-    var rand = Math.round(Math.random() * (420 - 75)) + 69;
+    var rand = Math.round(Math.random() * (352 - 172)) + 172;
     setTimeout(function() 
 	{
             animateFace();
 			
 			animationState = animationStates[Math.floor(Math.random()*animationStates.length)];
 			
-            loop();  
+            loop();
+			
     }, rand);
 }());
 
