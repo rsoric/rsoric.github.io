@@ -1,0 +1,68 @@
+@media (max-width: 765px) { 
+
+.menuItem1
+{
+	padding-top:1vh;
+}
+
+.faceContainer
+{
+	display:none;
+}
+
+
+}
+
+@media (min-width: 768px) 
+{ 
+
+.homeContainer
+{
+		min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+		min-height: 100vh; /* These two lines are counted as one :-)       */
+}
+
+.faceContainerMobile
+{
+	display:none;
+}
+
+.footer
+{
+	padding-bottom:20px;
+}
+
+}
+
+body
+{
+	background-color: #FEFCFB;
+	height: 100vh;
+}
+
+.menuImage
+{
+	display:block;
+	margin:auto;
+	max-width:100%;
+	height:auto;
+	max-height:111px;
+}
+
+.animatedFace
+{
+	height:56vh;
+}
+
+
+.header
+{
+	padding-top:20px;
+}
+
+body
+{
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+
