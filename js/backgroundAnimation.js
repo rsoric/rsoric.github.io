@@ -30,7 +30,7 @@ function animateFace()
 
 
 
-(function loop() {
+		(function loop() {
     var rand = Math.round(Math.random() * (352 - 172)) + 172;
     setTimeout(function() 
 	{
@@ -42,4 +42,7 @@ function animateFace()
 			
     }, rand);
 }());
+		
 
+$(document).ready(function(){
+jQuery('#content').ajaxify();});

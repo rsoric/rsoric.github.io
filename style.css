@@ -10,7 +10,12 @@
 	display:none;
 }
 
+.myimage
+{
+	padding-top: 10px;
+	padding-bottom: 25px;
 
+}
 }
 
 @media (min-width: 768px) 
@@ -62,7 +67,12 @@ body
 
 body
 {
-	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-family: 'Vollkorn', serif;
 }
 
+.biography
+{
+	text-align:justify;
+	font-size: 1.3em;
+}
 
