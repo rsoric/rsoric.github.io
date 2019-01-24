@@ -17,10 +17,13 @@
 
 }
 
-.contact
+
+#content
 {
 	padding-top:30px;
 }
+
+
 }
 
 @media (min-width: 768px) 
@@ -88,3 +91,15 @@ body
 	text-align: center;
 	font-size: 5vw;
 }
+
+.foto
+{
+text-align:center;
+}
+
+.portfolioPhoto
+{
+	max-height: 60vh;
+}
+
+
