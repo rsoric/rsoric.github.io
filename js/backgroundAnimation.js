@@ -31,7 +31,7 @@ function animateFace()
 
 
 		(function loop() {
-    var rand = Math.round(Math.random() * (352 - 54)) + 54;
+    var rand = Math.round(Math.random() * (352 - 89)) + 89;
     setTimeout(function() 
 	{
             animateFace();
