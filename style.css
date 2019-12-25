@@ -15,11 +15,22 @@ body
 	align-items: center;
 	align-content:center;
 	height: 95vh;
+	flex-direction: column;
 	
 }
 
 .logo
 {
-	max-width:60%;
+	max-width:80%;
 	height:auto;
+}
+
+p
+{
+	color:white;
+}
+
+a
+{
+	color:white;
 }
