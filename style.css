@@ -1,0 +1,25 @@
+body
+{
+	height: 95vh;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.container 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content:center;
+	height: 95vh;
+	
+}
+
+.logo
+{
+	max-width:60%;
+	height:auto;
+}
